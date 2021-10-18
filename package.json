@@ -1,0 +1,53 @@
+{
+  "private": true,
+  "name": "generator_quote",
+  "version": "1.0.0",
+  "description": "Данное приложение является примером использования стороннего API-сервиса.",
+  "main": "index.js",
+  "browserslist": [
+    "last 20 version",
+    "> 1%",
+    "not dead"
+  ],
+  "scripts": {
+    "build": "webpack --mode production",
+    "dev": "webpack serve --mode development"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dmitrijj89/API_quote.git"
+  },
+  "keywords": [
+    "JavaScript",
+    "API",
+    "SASS",
+    "HTML"
+  ],
+  "author": "DiPak",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Dmitrijj89/API_quote/issues"
+  },
+  "homepage": "https://github.com/Dmitrijj89/API_quote#readme",
+  "devDependencies": {
+    "@babel/core": "^7.15.8",
+    "@babel/preset-env": "^7.15.8",
+    "autoprefixer": "^10.3.7",
+    "babel-loader": "^8.2.2",
+    "clean-webpack-plugin": "^4.0.0",
+    "css-loader": "^6.4.0",
+    "css-mqpacker": "^7.0.0",
+    "cssnano": "^5.0.8",
+    "html-webpack-plugin": "^5.3.2",
+    "mini-css-extract-plugin": "^2.4.2",
+    "postcss": "^8.3.9",
+    "postcss-loader": "^6.2.0",
+    "postcss-preset-env": "^6.7.0",
+    "sass": "^1.43.2",
+    "sass-loader": "^12.2.0",
+    "style-loader": "^3.3.0",
+    "webpack": "^5.58.1",
+    "webpack-cli": "^4.9.0",
+    "webpack-dev-server": "^4.3.1"
+  }
+}
