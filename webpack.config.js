@@ -10,14 +10,14 @@ module.exports = {
         main: JS_DIR
     },
     output: {
-        path: path.resolve(__dirname, './doc'),
+        path: path.resolve(__dirname, './dist'),
         filename: 'script.js',
         
     },
     mode: "options.mode",
     devServer: {
         historyApiFallback: true,
-        static: path.resolve(__dirname, './doc'),
+        static: path.resolve(__dirname, './dist'),
         open: true,
         compress: true,
         hot: true,
