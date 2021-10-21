@@ -22,8 +22,8 @@ function removeSpinner() {
 // get api quote
 async function getQuote() {
     loadingSpinner();
-    const proxyUrl = "https://cors-anywhere.herokuapp.com/";
-    const urlApi = "https://api.forismatic.com/api/1.0/?method=getQuote&lang=ru&format=json";
+    const proxyUrl = "https://quote-pages-cors.herokuapp.com/";
+    const urlApi = "http://api.forismatic.com/api/1.0/?method=getQuote&lang=ru&format=json";
     try {
         const response = await fetch(proxyUrl + urlApi);
         const data = await response.json();
